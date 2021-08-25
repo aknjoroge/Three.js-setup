@@ -98,7 +98,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Alexander Karanja - [@your_twitter](https://twitter.com/aknjoroge) - info@techkey.co.ke
+Alexander Karanja - [@Twitter](https://twitter.com/aknjoroge) - info@techkey.co.ke
 
 [license-url]: https://opensource.org/licenses/MIT
 
