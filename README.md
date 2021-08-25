@@ -62,17 +62,17 @@ I assign a class to a html element which i use to render the three.js scene ` <d
 
 Three.js setup requires :
 
-1. Scene = `javascript let scene = new THREE.Scene();`
+1. Scene = ` let scene = new THREE.Scene();`
 
-2. Camera = `javascript let camera = new THREE.PerspectiveCamera()`
+2. Camera = ` let camera = new THREE.PerspectiveCamera()`
 
-3. Renderer = `javascript let renderer = new THREE.WebGLRenderer();`
+3. Renderer = ` let renderer = new THREE.WebGLRenderer();`
 
 An object is then initialized using a :
 
-1. Geometry = `javascript let geometry = new THREE.BoxGeometry();`
+1. Geometry = ` let geometry = new THREE.BoxGeometry();`
 
-2. Material = `javascript let material = new THREE.MeshBasicMaterial(); `
+2. Material = `let material = new THREE.MeshBasicMaterial();`
 
 > Mesh basic material is not affected by lighting
 
