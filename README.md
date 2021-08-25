@@ -5,13 +5,15 @@
 <br />
 <p align="center">
   <a href="https://github.com/aknjoroge/Three.js-setup.git">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/aknjoroge/Three.js-setup/development/logo.png?token=AOLMUC2XOGEZF3TON3AZSFDBF4X3K" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Three.Js startup setup </h3>
 
   <p align="center">
-  `Three.js`
+
+`Three.js`
+
   </p>
 </p>
 
@@ -113,4 +115,4 @@ Alexander Karanja - [@Twitter](https://twitter.com/aknjoroge) - info@techkey.co.
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/aknjoroge/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://raw.githubusercontent.com/aknjoroge/Three.js-setup/development/screenshot.png?token=AOLMUC4YX4QDIXCU5OPUKN3BF4YLW
