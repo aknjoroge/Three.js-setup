@@ -1,0 +1,20 @@
+{
+  "name": "simple-three.js-start-up",
+  "version": "1.0.0",
+  "description": "A simple three.js startup project with orbit controls and mesh basic material",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aknjoroge/Three.js-setup.git"
+  },
+  "author": "Alexander Karanja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aknjoroge/Three.js-setup/issues"
+  },
+  "homepage": "https://github.com/aknjoroge/Three.js-setup#readme",
+  "dependencies": {
+    "three": "^0.131.3"
+  }
+}
