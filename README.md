@@ -34,7 +34,7 @@ This is a project startup for three.js, the projects implements orbit controls a
 install Three.js from npm
 
 ```javascript
-npm install three
+npm install 
 ```
 
 The library is imported in the html from the node_modules folder <br/>
