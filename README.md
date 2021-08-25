@@ -29,6 +29,12 @@ This is a project startup for three.js, the projects implements orbit controls a
 
 ## Getting Started
 
+install Three.js from npm
+
+```javascript
+npm install three
+```
+
 The library is imported in the html from the node_modules folder <br/>
 `<script defer src="node_modules/three/build/three.min.js"></script>`
 <br/>
