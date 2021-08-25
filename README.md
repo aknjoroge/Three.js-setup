@@ -30,13 +30,23 @@ This is a project startup for three.js, the projects implements orbit controls a
 ## Getting Started
 
 The library is imported in the html from the node_modules folder <br/>
-`<script defer src="node_modules/three/build/three.min.js"></script>` <br/> The library can also be imported from three js CDN as ` import * as THREE from 'https://cdn.skypack.dev/three@<version>';`. <br/> Get better installation guides from [three.js installation docs](https://threejs.org/docs/#manual/en/introduction/Installation).
+`<script defer src="node_modules/three/build/three.min.js"></script>`
+<br/>
+The library can also be imported from three js CDN as ` import * as THREE from 'https://cdn.skypack.dev/three@<version>';`.
+<br/>
+Get better installation guides from [three.js installation docs](https://threejs.org/docs/#manual/en/introduction/Installation).
 <br/>
 
 The scripts have the attribute `defer` since they are places in the html header not the footer
 
 I also import Orbit controlls that allows the camera to orbit around a target.<br/>
-` <script defer src="node_modules/three/examples/js/controls/OrbitControls.js" ></script>`
+
+```html
+<script
+  defer
+  src="node_modules/three/examples/js/controls/OrbitControls.js"
+></script>
+```
 
 I assign a class to a html element which i use to render the three.js scene ` <div class="webgl"></div>`
 
@@ -44,14 +54,17 @@ I assign a class to a html element which i use to render the three.js scene ` <d
 
 Three.js setup requires :
 
-1. Scene = ` let scene = new THREE.Scene();`
-2. Camera = ` let camera = new THREE.PerspectiveCamera()`
-3. Renderer = `let renderer = new THREE.WebGLRenderer();`
+1. Scene = `javascript let scene = new THREE.Scene();`
+
+2. Camera = `javascript let camera = new THREE.PerspectiveCamera()`
+
+3. Renderer = `javascript let renderer = new THREE.WebGLRenderer();`
 
 An object is then initialized using a :
 
-1. Geometry = ` let geometry = new THREE.BoxGeometry();`
-2. Material =` let material = new THREE.MeshBasicMaterial();`
+1. Geometry = `javascript let geometry = new THREE.BoxGeometry();`
+
+2. Material = `javascript let material = new THREE.MeshBasicMaterial(); `
 
 > Mesh basic material is not affected by lighting
 
